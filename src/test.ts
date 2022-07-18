@@ -1,4 +1,5 @@
 import { GraphClientInit } from "./GraphClient";
+import "./messages"
 import { Drive, MessageCollectionResponse, SendMailBody, User } from "./Model";
 
 const accessToken = "Access_Token";
@@ -50,5 +51,3 @@ async function sendMail() {
     console.log(res);
    
 }
-
-sendMail().then(() => "done").catch();

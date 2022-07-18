@@ -1,11 +1,11 @@
-import { GraphClient } from "./GraphClient";
 import { User, MessageCollectionResponse, Drive, Message, SendMailBody } from "./Model";
 
-interface Routes {
-    (api: "/me"): GetMe,
-    (api: "/me/messages"): GetMessages,
-    (api: "/me/sendMail"): SendMail,
+export interface Routes {
+    (api: "/me"): GetMe
+    (api: "/me/messages"): GetMessages
+    (api: "/me/sendMail"): SendMail
     (api: "/me/drive"): GetDrive
+    (api: "/users/{user-id}", userid:string): GetMe
 }
 
 interface GetMe {
@@ -25,9 +25,7 @@ interface SendMail {
 
 }
 
-export type GraphSDKClient = GraphClient & {
-    api: Routes
-}
+
 
 
 
