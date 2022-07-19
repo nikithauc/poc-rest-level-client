@@ -1,5 +1,5 @@
 import { init } from "./coreClient"
-import { GraphSDKClient } from "./Routes"
+import { GraphSDKClient } from "./graphSDKClient"
 
 export interface GraphClient{
     api?:Function

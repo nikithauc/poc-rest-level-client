@@ -126,3 +126,19 @@ export interface ToRecipient{
 export interface EmailAddress{
     address:string
 }
+
+export interface Group {
+    /** Date and time of the group creation. Read-only. */
+    createdDateTime?: Date | undefined;
+    /** Description that gives details on the term usage. */
+    description?: string | undefined;
+    /** Name of the group. */
+    displayName?: string | undefined;
+    /** ID of the parent site of this group. */
+    parentSiteId?: string | undefined;
+    /** Returns the type of the group. Possible values are global, system, and siteCollection. */
+    groupTypes?: string[] | undefined;
+    mailEnabled: boolean;
+    securityEnabled?: boolean | undefined;
+    mailNickname?: string|undefined;
+}

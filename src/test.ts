@@ -1,10 +1,8 @@
-import { GraphClientInit } from "./GraphClient";
-import { Drive, MessageCollectionResponse, SendMailBody, User } from "./Model";
+import { testClient } from "./createTestClient";
+import { Drive, MessageCollectionResponse, SendMailBody, User } from "./models";
 
-const accessToken = "Access_Token";
-const client = GraphClientInit(accessToken);
 async function testMessages() {
-    const res: MessageCollectionResponse = await client.api("/me/messages").get();
+    const res: MessageCollectionResponse = await testClient.api("/me/messages").get();
     console.log(res.value[0]);
     console.log(res.value[0].subject);
 }
@@ -12,16 +10,10 @@ async function testMessages() {
 testMessages().then(() => "done").catch();
 
 
-async function testMe() {
-    const res:User = await client.api("/me").get();
-    console.log(res);
-    console.log(res.surname);
-}
 
-testMe().then(() => "done").catch();
 
 async function testDrive() {
-    const res:Drive = await client.api("/me/drive").get();
+    const res:Drive = await testClient.api("/me/drive").get();
     console.log(res);
     console.log(res.quota);
 }
@@ -46,7 +38,7 @@ async function sendMail() {
     ]
         }
     } 
-    const res = await client.api("/me/sendMail").post(body, {"Content-type":"application/json"});
+    const res = await testClient.api("/me/sendMail").post(body, {"Content-type":"application/json"});
     console.log(res);
    
 }

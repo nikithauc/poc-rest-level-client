@@ -1,4 +1,4 @@
-import { GraphClient } from "./GraphClient";
+import { GraphClient } from "./graphClientInit";
 import "cross-fetch/polyfill"
 import { Client } from "@microsoft/microsoft-graph-client";
 
@@ -14,7 +14,8 @@ export function init(accessToken:string){
 const graphCoreClient = Client.init({
     authProvider: (done) => {
 		done("init error", accessToken);
-	}
+	},
+    debugLogging: true
 })
 // const  coreclient = {
 //     api: (path: string) => {
