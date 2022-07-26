@@ -2,14 +2,15 @@
   "name": "api-sdk",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "tsc; node ./lib/test.js"
+    "test": "tsc; node ./lib/test.js",
+    "prepack": "tsc"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@microsoft/microsoft-graph-client": "file:microsoft-microsoft-graph-client-3.0.0-Preview.3.tgz",
+    "@microsoft/microsoft-graph-client": "3.0.2",
     "cross-fetch": "^3.1.5"
   }
 }
