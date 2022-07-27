@@ -21,7 +21,7 @@ export interface URLOperation6 {
    get():MicrosoftGraphServiceHealthIssue
 }
 export interface URLOperation7 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation8 {
    get():ODataCountResponse
@@ -37,7 +37,7 @@ export interface URLOperation11 {
    get():MicrosoftGraphServiceHealthIssue
 }
 export interface URLOperation12 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation13 {
    get():ODataCountResponse
@@ -57,13 +57,13 @@ export interface URLOperation17 {
    get():MicrosoftGraphServiceAnnouncementAttachment
 }
 export interface URLOperation18 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation19 {
    get():ODataCountResponse
 }
 export interface URLOperation20 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation21 {
    get():ODataCountResponse
@@ -209,7 +209,7 @@ export interface URLOperation64 {
    get():ODataCountResponse
 }
 export interface URLOperation65 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation66 {
    post(requestBody:undefined):MicrosoftGraphKeyCredential
@@ -414,10 +414,10 @@ export interface URLOperation130 {
    get():MicrosoftGraphOrganizationalBranding
 }
 export interface URLOperation131 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation132 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation133 {
    get():MicrosoftGraphOrganizationalBrandingLocalizationCollectionResponse
@@ -427,19 +427,19 @@ export interface URLOperation134 {
    get():MicrosoftGraphOrganizationalBrandingLocalization
 }
 export interface URLOperation135 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation136 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation137 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation138 {
    get():ODataCountResponse
 }
 export interface URLOperation139 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation140 {
    get():MicrosoftGraphCertificateBasedAuthConfigurationCollectionResponse
@@ -722,7 +722,7 @@ export interface URLOperation226 {
    get():ODataCountResponse
 }
 export interface URLOperation227 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation228 {
    get():ODataCountResponse
@@ -1875,52 +1875,52 @@ export interface URLOperation587 {
    get():ODataCountResponse
 }
 export interface URLOperation588 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation589 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation590 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation591 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation592 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation593 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation594 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation595 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation596 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation597 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation598 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation599 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation600 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation601 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation602 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation603 {
-   post(requestBody:undefined):undefined
+   post(requestBody:undefined):unknown
 }
 export interface URLOperation604 {
    get():MicrosoftGraphResourceOperationCollectionResponse
@@ -2755,7 +2755,7 @@ export interface URLOperation871 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation872 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation873 {
    get():ODataCountResponse
@@ -2767,7 +2767,7 @@ export interface URLOperation875 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation876 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation877 {
    get():ODataCountResponse
@@ -2789,13 +2789,13 @@ export interface URLOperation882 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation883 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation884 {
    get():ODataCountResponse
 }
 export interface URLOperation885 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation886 {
    get():MicrosoftGraphListItem
@@ -2807,7 +2807,7 @@ export interface URLOperation888 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation889 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation890 {
    get():MicrosoftGraphFieldValueSet
@@ -2926,7 +2926,7 @@ export interface URLOperation926 {
    get():MicrosoftGraphDriveItemVersion
 }
 export interface URLOperation927 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation928 {
    post():undefined
@@ -3048,7 +3048,7 @@ export interface URLOperation965 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation966 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation967 {
    get():MicrosoftGraphFieldValueSet
@@ -3123,13 +3123,13 @@ export interface URLOperation989 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation990 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation991 {
    get():ODataCountResponse
 }
 export interface URLOperation992 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation993 {
    get():MicrosoftGraphListItem
@@ -3141,7 +3141,7 @@ export interface URLOperation995 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation996 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation997 {
    get():MicrosoftGraphFieldValueSet
@@ -3260,7 +3260,7 @@ export interface URLOperation1033 {
    get():MicrosoftGraphDriveItemVersion
 }
 export interface URLOperation1034 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1035 {
    post():undefined
@@ -3275,7 +3275,7 @@ export interface URLOperation1038 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1039 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1040 {
    get():ODataCountResponse
@@ -3294,7 +3294,7 @@ export interface URLOperation1044 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1045 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1046 {
    get():ODataCountResponse
@@ -3306,7 +3306,7 @@ export interface URLOperation1048 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1049 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1050 {
    get():ODataCountResponse
@@ -3328,13 +3328,13 @@ export interface URLOperation1055 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1056 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1057 {
    get():ODataCountResponse
 }
 export interface URLOperation1058 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1059 {
    get():MicrosoftGraphListItem
@@ -3346,7 +3346,7 @@ export interface URLOperation1061 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1062 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1063 {
    get():MicrosoftGraphFieldValueSet
@@ -3465,7 +3465,7 @@ export interface URLOperation1099 {
    get():MicrosoftGraphDriveItemVersion
 }
 export interface URLOperation1100 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1101 {
    post():undefined
@@ -3587,7 +3587,7 @@ export interface URLOperation1138 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1139 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1140 {
    get():MicrosoftGraphFieldValueSet
@@ -3662,13 +3662,13 @@ export interface URLOperation1162 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1163 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1164 {
    get():ODataCountResponse
 }
 export interface URLOperation1165 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1166 {
    get():MicrosoftGraphListItem
@@ -3680,7 +3680,7 @@ export interface URLOperation1168 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1169 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1170 {
    get():MicrosoftGraphFieldValueSet
@@ -3799,7 +3799,7 @@ export interface URLOperation1206 {
    get():MicrosoftGraphDriveItemVersion
 }
 export interface URLOperation1207 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1208 {
    post():undefined
@@ -3814,7 +3814,7 @@ export interface URLOperation1211 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1212 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1213 {
    get():ODataCountResponse
@@ -5121,7 +5121,7 @@ export interface URLOperation1620 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1621 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1622 {
    get():ODataCountResponse
@@ -5133,7 +5133,7 @@ export interface URLOperation1624 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1625 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1626 {
    get():ODataCountResponse
@@ -5155,13 +5155,13 @@ export interface URLOperation1631 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1632 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1633 {
    get():ODataCountResponse
 }
 export interface URLOperation1634 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1635 {
    get():MicrosoftGraphListItem
@@ -5173,7 +5173,7 @@ export interface URLOperation1637 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1638 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1639 {
    get():MicrosoftGraphFieldValueSet
@@ -5292,7 +5292,7 @@ export interface URLOperation1675 {
    get():MicrosoftGraphDriveItemVersion
 }
 export interface URLOperation1676 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1677 {
    post():undefined
@@ -5414,7 +5414,7 @@ export interface URLOperation1714 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1715 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1716 {
    get():MicrosoftGraphFieldValueSet
@@ -5489,13 +5489,13 @@ export interface URLOperation1738 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1739 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1740 {
    get():ODataCountResponse
 }
 export interface URLOperation1741 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1742 {
    get():MicrosoftGraphListItem
@@ -5507,7 +5507,7 @@ export interface URLOperation1744 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1745 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1746 {
    get():MicrosoftGraphFieldValueSet
@@ -5626,7 +5626,7 @@ export interface URLOperation1782 {
    get():MicrosoftGraphDriveItemVersion
 }
 export interface URLOperation1783 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1784 {
    post():undefined
@@ -5641,7 +5641,7 @@ export interface URLOperation1787 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation1788 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1789 {
    get():ODataCountResponse
@@ -6125,7 +6125,7 @@ export interface URLOperation1943 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation1944 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1945 {
    post(requestBody:undefined):undefined
@@ -6178,7 +6178,7 @@ export interface URLOperation1960 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation1961 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1962 {
    post(requestBody:undefined):undefined
@@ -6234,7 +6234,7 @@ export interface URLOperation1978 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation1979 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1980 {
    post(requestBody:undefined):undefined
@@ -6262,7 +6262,7 @@ export interface URLOperation1987 {
    get():MicrosoftGraphOnenoteResource
 }
 export interface URLOperation1988 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation1989 {
    get():ODataCountResponse
@@ -6310,7 +6310,7 @@ export interface URLOperation2002 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation2003 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2004 {
    post(requestBody:undefined):undefined
@@ -6363,7 +6363,7 @@ export interface URLOperation2019 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation2020 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2021 {
    post(requestBody:undefined):undefined
@@ -6496,7 +6496,7 @@ export interface URLOperation2063 {
    get():MicrosoftGraphProfilePhoto
 }
 export interface URLOperation2064 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2065 {
    get():MicrosoftGraphProfilePhotoCollectionResponse
@@ -6506,7 +6506,7 @@ export interface URLOperation2066 {
    get():MicrosoftGraphProfilePhoto
 }
 export interface URLOperation2067 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2068 {
    get():ODataCountResponse
@@ -6849,7 +6849,7 @@ export interface URLOperation2175 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation2176 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2177 {
    get():MicrosoftGraphFieldValueSet
@@ -6973,7 +6973,7 @@ export interface URLOperation2214 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation2215 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2216 {
    post(requestBody:undefined):undefined
@@ -7026,7 +7026,7 @@ export interface URLOperation2231 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation2232 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2233 {
    post(requestBody:undefined):undefined
@@ -7082,7 +7082,7 @@ export interface URLOperation2249 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation2250 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2251 {
    post(requestBody:undefined):undefined
@@ -7110,7 +7110,7 @@ export interface URLOperation2258 {
    get():MicrosoftGraphOnenoteResource
 }
 export interface URLOperation2259 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2260 {
    get():ODataCountResponse
@@ -7158,7 +7158,7 @@ export interface URLOperation2273 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation2274 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2275 {
    post(requestBody:undefined):undefined
@@ -7211,7 +7211,7 @@ export interface URLOperation2290 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation2291 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2292 {
    post(requestBody:undefined):undefined
@@ -8282,7 +8282,7 @@ export interface URLOperation2625 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation2626 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2627 {
    get():MicrosoftGraphConversationMemberCollectionResponse
@@ -8438,7 +8438,7 @@ export interface URLOperation2674 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation2675 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2676 {
    get():MicrosoftGraphConversationMemberCollectionResponse
@@ -8976,7 +8976,7 @@ export interface URLOperation2843 {
    get():MicrosoftGraphUserFlowLanguagePage
 }
 export interface URLOperation2844 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2845 {
    get():ODataCountResponse
@@ -8989,7 +8989,7 @@ export interface URLOperation2847 {
    get():MicrosoftGraphUserFlowLanguagePage
 }
 export interface URLOperation2848 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation2849 {
    get():ODataCountResponse
@@ -9664,13 +9664,13 @@ export interface URLOperation3057 {
    get():MicrosoftGraphOrganizationalBrandingLocalization
 }
 export interface URLOperation3058 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3059 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3060 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3061 {
    get():ODataCountResponse
@@ -11683,7 +11683,7 @@ export interface URLOperation3695 {
    get():MicrosoftGraphProfilePhoto
 }
 export interface URLOperation3696 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3697 {
    get():MicrosoftGraphSingleValueLegacyExtendedPropertyCollectionResponse
@@ -11758,7 +11758,7 @@ export interface URLOperation3718 {
    get():MicrosoftGraphProfilePhoto
 }
 export interface URLOperation3719 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3720 {
    get():MicrosoftGraphSingleValueLegacyExtendedPropertyCollectionResponse
@@ -11833,7 +11833,7 @@ export interface URLOperation3741 {
    get():MicrosoftGraphProfilePhoto
 }
 export interface URLOperation3742 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3743 {
    get():MicrosoftGraphSingleValueLegacyExtendedPropertyCollectionResponse
@@ -11923,7 +11923,7 @@ export interface URLOperation3770 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation3771 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3772 {
    get():ODataCountResponse
@@ -11935,7 +11935,7 @@ export interface URLOperation3774 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation3775 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3776 {
    get():ODataCountResponse
@@ -11957,13 +11957,13 @@ export interface URLOperation3781 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation3782 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3783 {
    get():ODataCountResponse
 }
 export interface URLOperation3784 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3785 {
    get():MicrosoftGraphListItem
@@ -11975,7 +11975,7 @@ export interface URLOperation3787 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation3788 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3789 {
    get():MicrosoftGraphFieldValueSet
@@ -12094,7 +12094,7 @@ export interface URLOperation3825 {
    get():MicrosoftGraphDriveItemVersion
 }
 export interface URLOperation3826 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3827 {
    post():undefined
@@ -12216,7 +12216,7 @@ export interface URLOperation3864 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation3865 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3866 {
    get():MicrosoftGraphFieldValueSet
@@ -12291,13 +12291,13 @@ export interface URLOperation3888 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation3889 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3890 {
    get():ODataCountResponse
 }
 export interface URLOperation3891 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3892 {
    get():MicrosoftGraphListItem
@@ -12309,7 +12309,7 @@ export interface URLOperation3894 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation3895 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3896 {
    get():MicrosoftGraphFieldValueSet
@@ -12428,7 +12428,7 @@ export interface URLOperation3932 {
    get():MicrosoftGraphDriveItemVersion
 }
 export interface URLOperation3933 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3934 {
    post():undefined
@@ -12443,7 +12443,7 @@ export interface URLOperation3937 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation3938 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation3939 {
    get():ODataCountResponse
@@ -12706,7 +12706,7 @@ export interface URLOperation4019 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation4020 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4021 {
    get():MicrosoftGraphConversationMemberCollectionResponse
@@ -12862,7 +12862,7 @@ export interface URLOperation4068 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation4069 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4070 {
    get():MicrosoftGraphConversationMemberCollectionResponse
@@ -13092,7 +13092,7 @@ export interface URLOperation4138 {
    get():MicrosoftGraphMessage
 }
 export interface URLOperation4139 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4140 {
    get():MicrosoftGraphAttachmentCollectionResponse
@@ -13220,7 +13220,7 @@ export interface URLOperation4178 {
    get():MicrosoftGraphMessage
 }
 export interface URLOperation4179 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4180 {
    get():MicrosoftGraphAttachmentCollectionResponse
@@ -13503,7 +13503,7 @@ export interface URLOperation4269 {
    get():MicrosoftGraphMessage
 }
 export interface URLOperation4270 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4271 {
    get():MicrosoftGraphAttachmentCollectionResponse
@@ -13703,7 +13703,7 @@ export interface URLOperation4333 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation4334 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4335 {
    post(requestBody:undefined):undefined
@@ -13756,7 +13756,7 @@ export interface URLOperation4350 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation4351 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4352 {
    post(requestBody:undefined):undefined
@@ -13812,7 +13812,7 @@ export interface URLOperation4368 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation4369 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4370 {
    post(requestBody:undefined):undefined
@@ -13840,7 +13840,7 @@ export interface URLOperation4377 {
    get():MicrosoftGraphOnenoteResource
 }
 export interface URLOperation4378 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4379 {
    get():ODataCountResponse
@@ -13888,7 +13888,7 @@ export interface URLOperation4392 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation4393 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4394 {
    post(requestBody:undefined):undefined
@@ -13941,7 +13941,7 @@ export interface URLOperation4409 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation4410 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4411 {
    post(requestBody:undefined):undefined
@@ -13998,7 +13998,7 @@ export interface URLOperation4427 {
    get():ODataCountResponse
 }
 export interface URLOperation4428 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4429 {
    get():ODataCountResponse
@@ -14114,7 +14114,7 @@ export interface URLOperation4465 {
    get():MicrosoftGraphProfilePhoto
 }
 export interface URLOperation4466 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4467 {
    get():MicrosoftGraphProfilePhotoCollectionResponse
@@ -14124,7 +14124,7 @@ export interface URLOperation4468 {
    get():MicrosoftGraphProfilePhoto
 }
 export interface URLOperation4469 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4470 {
    get():ODataCountResponse
@@ -14457,10 +14457,10 @@ export interface URLOperation4574 {
    get():MicrosoftGraphOrganizationalBranding
 }
 export interface URLOperation4575 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4576 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4577 {
    get():MicrosoftGraphOrganizationalBrandingLocalizationCollectionResponse
@@ -14470,19 +14470,19 @@ export interface URLOperation4578 {
    get():MicrosoftGraphOrganizationalBrandingLocalization
 }
 export interface URLOperation4579 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4580 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4581 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4582 {
    get():ODataCountResponse
 }
 export interface URLOperation4583 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4584 {
    get():MicrosoftGraphCertificateBasedAuthConfigurationCollectionResponse
@@ -15064,10 +15064,10 @@ export interface URLOperation4764 {
    get():MicrosoftGraphSubjectRightsRequest
 }
 export interface URLOperation4765 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4766 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4767 {
    get():MicrosoftGraphAuthoredNoteCollectionResponse
@@ -15115,46 +15115,46 @@ export interface URLOperation4780 {
    get():undefined
 }
 export interface URLOperation4781 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4782 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4783 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4784 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4785 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4786 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4787 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4788 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4789 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4790 {
    get():undefined
 }
 export interface URLOperation4791 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4792 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4793 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4794 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4795 {
    get():MicrosoftGraphReport
@@ -15310,28 +15310,28 @@ export interface URLOperation4845 {
    get():MicrosoftGraphReport
 }
 export interface URLOperation4846 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4847 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4848 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4849 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4850 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4851 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4852 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4853 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation4854 {
    get():undefined
@@ -16202,7 +16202,7 @@ export interface URLOperation5132 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation5133 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5134 {
    get():MicrosoftGraphDriveItemCollectionResponse
@@ -16211,7 +16211,7 @@ export interface URLOperation5135 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation5136 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5137 {
    get():ODataCountResponse
@@ -16327,7 +16327,7 @@ export interface URLOperation5172 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation5173 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5174 {
    get():MicrosoftGraphFieldValueSet
@@ -16390,7 +16390,7 @@ export interface URLOperation5192 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation5193 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5194 {
    get():MicrosoftGraphFieldValueSet
@@ -16427,7 +16427,7 @@ export interface URLOperation5204 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation5205 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5206 {
    get():MicrosoftGraphSite
@@ -16680,7 +16680,7 @@ export interface URLOperation5285 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation5286 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5287 {
    get():MicrosoftGraphFieldValueSet
@@ -16804,7 +16804,7 @@ export interface URLOperation5324 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation5325 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5326 {
    post(requestBody:undefined):undefined
@@ -16857,7 +16857,7 @@ export interface URLOperation5341 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation5342 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5343 {
    post(requestBody:undefined):undefined
@@ -16913,7 +16913,7 @@ export interface URLOperation5359 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation5360 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5361 {
    post(requestBody:undefined):undefined
@@ -16941,7 +16941,7 @@ export interface URLOperation5368 {
    get():MicrosoftGraphOnenoteResource
 }
 export interface URLOperation5369 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5370 {
    get():ODataCountResponse
@@ -16989,7 +16989,7 @@ export interface URLOperation5383 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation5384 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5385 {
    post(requestBody:undefined):undefined
@@ -17042,7 +17042,7 @@ export interface URLOperation5400 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation5401 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5402 {
    post(requestBody:undefined):undefined
@@ -18229,7 +18229,7 @@ export interface URLOperation5770 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation5771 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5772 {
    get():MicrosoftGraphConversationMemberCollectionResponse
@@ -18385,7 +18385,7 @@ export interface URLOperation5819 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation5820 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation5821 {
    get():MicrosoftGraphConversationMemberCollectionResponse
@@ -20608,7 +20608,7 @@ export interface URLOperation6519 {
    get():MicrosoftGraphProfilePhoto
 }
 export interface URLOperation6520 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6521 {
    get():MicrosoftGraphSingleValueLegacyExtendedPropertyCollectionResponse
@@ -20683,7 +20683,7 @@ export interface URLOperation6542 {
    get():MicrosoftGraphProfilePhoto
 }
 export interface URLOperation6543 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6544 {
    get():MicrosoftGraphSingleValueLegacyExtendedPropertyCollectionResponse
@@ -20758,7 +20758,7 @@ export interface URLOperation6565 {
    get():MicrosoftGraphProfilePhoto
 }
 export interface URLOperation6566 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6567 {
    get():MicrosoftGraphSingleValueLegacyExtendedPropertyCollectionResponse
@@ -20848,7 +20848,7 @@ export interface URLOperation6594 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation6595 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6596 {
    get():ODataCountResponse
@@ -20860,7 +20860,7 @@ export interface URLOperation6598 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation6599 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6600 {
    get():ODataCountResponse
@@ -20882,13 +20882,13 @@ export interface URLOperation6605 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation6606 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6607 {
    get():ODataCountResponse
 }
 export interface URLOperation6608 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6609 {
    get():MicrosoftGraphListItem
@@ -20900,7 +20900,7 @@ export interface URLOperation6611 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation6612 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6613 {
    get():MicrosoftGraphFieldValueSet
@@ -21019,7 +21019,7 @@ export interface URLOperation6649 {
    get():MicrosoftGraphDriveItemVersion
 }
 export interface URLOperation6650 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6651 {
    post():undefined
@@ -21141,7 +21141,7 @@ export interface URLOperation6688 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation6689 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6690 {
    get():MicrosoftGraphFieldValueSet
@@ -21216,13 +21216,13 @@ export interface URLOperation6712 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation6713 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6714 {
    get():ODataCountResponse
 }
 export interface URLOperation6715 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6716 {
    get():MicrosoftGraphListItem
@@ -21234,7 +21234,7 @@ export interface URLOperation6718 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation6719 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6720 {
    get():MicrosoftGraphFieldValueSet
@@ -21353,7 +21353,7 @@ export interface URLOperation6756 {
    get():MicrosoftGraphDriveItemVersion
 }
 export interface URLOperation6757 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6758 {
    post():undefined
@@ -21368,7 +21368,7 @@ export interface URLOperation6761 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation6762 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6763 {
    get():ODataCountResponse
@@ -21631,7 +21631,7 @@ export interface URLOperation6843 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation6844 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6845 {
    get():MicrosoftGraphConversationMemberCollectionResponse
@@ -21787,7 +21787,7 @@ export interface URLOperation6892 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation6893 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6894 {
    get():MicrosoftGraphConversationMemberCollectionResponse
@@ -22017,7 +22017,7 @@ export interface URLOperation6962 {
    get():MicrosoftGraphMessage
 }
 export interface URLOperation6963 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation6964 {
    get():MicrosoftGraphAttachmentCollectionResponse
@@ -22145,7 +22145,7 @@ export interface URLOperation7002 {
    get():MicrosoftGraphMessage
 }
 export interface URLOperation7003 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7004 {
    get():MicrosoftGraphAttachmentCollectionResponse
@@ -22428,7 +22428,7 @@ export interface URLOperation7093 {
    get():MicrosoftGraphMessage
 }
 export interface URLOperation7094 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7095 {
    get():MicrosoftGraphAttachmentCollectionResponse
@@ -22628,7 +22628,7 @@ export interface URLOperation7157 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation7158 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7159 {
    post(requestBody:undefined):undefined
@@ -22681,7 +22681,7 @@ export interface URLOperation7174 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation7175 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7176 {
    post(requestBody:undefined):undefined
@@ -22737,7 +22737,7 @@ export interface URLOperation7192 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation7193 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7194 {
    post(requestBody:undefined):undefined
@@ -22765,7 +22765,7 @@ export interface URLOperation7201 {
    get():MicrosoftGraphOnenoteResource
 }
 export interface URLOperation7202 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7203 {
    get():ODataCountResponse
@@ -22813,7 +22813,7 @@ export interface URLOperation7216 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation7217 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7218 {
    post(requestBody:undefined):undefined
@@ -22866,7 +22866,7 @@ export interface URLOperation7233 {
    get():MicrosoftGraphOnenotePage
 }
 export interface URLOperation7234 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7235 {
    post(requestBody:undefined):undefined
@@ -22923,7 +22923,7 @@ export interface URLOperation7251 {
    get():ODataCountResponse
 }
 export interface URLOperation7252 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7253 {
    get():ODataCountResponse
@@ -23039,7 +23039,7 @@ export interface URLOperation7289 {
    get():MicrosoftGraphProfilePhoto
 }
 export interface URLOperation7290 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7291 {
    get():MicrosoftGraphProfilePhotoCollectionResponse
@@ -23049,7 +23049,7 @@ export interface URLOperation7292 {
    get():MicrosoftGraphProfilePhoto
 }
 export interface URLOperation7293 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7294 {
    get():ODataCountResponse
@@ -23390,13 +23390,13 @@ export interface URLOperation7401 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation7402 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7403 {
    get():ODataCountResponse
 }
 export interface URLOperation7404 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7405 {
    get():MicrosoftGraphListItem
@@ -23408,7 +23408,7 @@ export interface URLOperation7407 {
    get():MicrosoftGraphDriveItem
 }
 export interface URLOperation7408 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7409 {
    get():MicrosoftGraphFieldValueSet
@@ -23527,7 +23527,7 @@ export interface URLOperation7445 {
    get():MicrosoftGraphDriveItemVersion
 }
 export interface URLOperation7446 {
-   get():undefined
+   get():unknown
 }
 export interface URLOperation7447 {
    post():undefined

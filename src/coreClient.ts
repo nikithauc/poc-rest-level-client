@@ -1,6 +1,6 @@
 import { GraphClient } from "./graphClientInit";
 import "cross-fetch/polyfill"
-import { Client } from "@microsoft/microsoft-graph-client";
+import { Client } from "@microsoft/microsoft-graph-client/lib/es/src";
 
 const baseUrl = "https://graph.microsoft.com/v1.0"
 

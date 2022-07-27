@@ -1,5 +1,5 @@
 {
-  "name": "api-sdk",
+  "name": "full-graph-api-cjs-typeEnum-sdk",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
