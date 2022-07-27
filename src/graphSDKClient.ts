@@ -1,4 +1,4 @@
-import { GraphApis } from "./graph/apis";
+import { GraphApis } from "./graphAPIs";
 import { GraphClient } from "./graphClientInit";
 
 export type GraphSDKClient = GraphClient & {
