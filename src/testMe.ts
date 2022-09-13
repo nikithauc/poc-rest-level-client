@@ -1,7 +1,7 @@
 import { testClient } from "./createTestClient";
 
 async function testMe() {
-    const res = await testClient.api("/me").get({},{$select:'displayName'});
+    const res = await testClient.api("/me").get();
     console.log(res);
 }
 

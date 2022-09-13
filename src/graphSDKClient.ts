@@ -1,6 +1,6 @@
-import { APIs } from "./graphAPis"
+import { Apis } from "./apis"
 import { GraphClient } from "./graphClientInit"
 
 export type GraphSDKClient = GraphClient & {
-    api: APIs
+    api: Apis
 }
