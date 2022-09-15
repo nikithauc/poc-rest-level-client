@@ -8,7 +8,7 @@ async function testMe() {
 testMe().then(() => "done").catch();
 
 // async function testSearchQuery() {
-//     const res = await testClient.api("/me/drive/root/search(q = {'finance'})").get();
+//     const res = await testClient.api("/me/drive/root/search(q ").get();
 //     console.log(res);
 // }
 
