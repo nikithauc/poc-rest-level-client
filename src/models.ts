@@ -13670,4 +13670,4 @@ export type MicrosoftGraphExternalConnectorsExternalItemContentType = "text" | "
 export type MicrosoftGraphExternalConnectorsIdentityType = "user" | "group" | "externalGroup" | "unknownFutureValue"
 export type MicrosoftGraphExternalConnectorsLabel = "title" | "url" | "createdBy" | "lastModifiedBy" | "authors" | "createdDateTime" | "lastModifiedDateTime" | "fileName" | "fileExtension" | "unknownFutureValue"
 export type MicrosoftGraphExternalConnectorsPropertyType = "string" | "int64" | "double" | "dateTime" | "boolean" | "stringCollection" | "int64Collection" | "doubleCollection" | "dateTimeCollection" | "unknownFutureValue"
-export type ODataCountResponse= number;
+export type ODataCountResponse= number
